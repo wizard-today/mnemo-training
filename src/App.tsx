@@ -48,9 +48,6 @@ const C: ColorPalette = {
   dim:     "#1a1a38",
 };
 
-const serif = "Georgia,'Times New Roman',serif";
-const ui    = "system-ui,-apple-system,'Segoe UI',sans-serif";
-
 const GLOBAL_CSS = `
   @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap');
   :root {
