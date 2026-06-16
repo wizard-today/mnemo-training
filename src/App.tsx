@@ -141,7 +141,7 @@ function Settings({ onStart }: SettingsProps): JSX.Element {
           Количество слов
         </div>
         <div style={{ display: "flex", gap: 8 }}>
-          {[5, 8, 10, 15, 20].map((n: number) => (
+          {[10, 15, 20, 30, 40].map((n: number) => (
             <Opt key={n} val={n} active={wc === n} onClick={() => setWc(n)} />
           ))}
         </div>
